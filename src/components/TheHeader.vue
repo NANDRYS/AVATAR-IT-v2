@@ -3,7 +3,7 @@
 <template>
   <header class="head flex flex-row justify-between text-center bg-slate-200 w-100 py-4 px-10">
     <div class="basis-1/5 ">
-      <a  href="#"><img class="w-20 m-auto" src="/public/text-avatar.png" alt="not found" /></a>
+      <a  href="/"><img class="w-20 m-auto" src="/public/text-avatar.png" alt="not found" /></a>
     </div>
     <div class="basis-3/5 search">
         <input class="p-1 w-4/5 text-center" placeholder="Ищем..." type="text" />

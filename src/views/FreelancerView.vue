@@ -1,47 +1,41 @@
 <script setup>
 import FreelancerIcon from '../components/FreelancerIcon.vue'
 import TheNavigate from '../components/Freelancer/TheNavigate.vue'
-import ExperienceItem from '../components/Freelancer/ExperienceItem.vue'
-import {
-  EDUCATIONS_AND_COURSES,
-  FREELANCER_EXPERIENCE
-} from '@/components/Freelancer/freelancerConstants'
+import TheAbout from '@/components/Freelancer/TheAbout.vue'
+import TheExperience from '@/components/Freelancer/TheExperience.vue'
+import TheEducation from '@/components/Freelancer/TheEducation.vue'
 </script>
 <template>
   <div class="flex">
-    <div class="flex flex-col sticky w-1/5 bg-sky-500 h-screen justify-center items-center">
-      <FreelancerIcon class="rounded-full" />
-      <TheNavigate class="text-white" />
+    <div class="w-1/5">
+      <div class="header w-full">
+        <FreelancerIcon class="rounded-full w-40 h-40 mb-5" />
+        <TheNavigate class="text-white text-2xl capitalize" />
+      </div>
     </div>
-    <div class=" p-10">
+
+    <div class="p-10">
+      <TheAbout />
+      <TheExperience />
+      <TheEducation />
       <section>
-        <a name="about"></a>
-        <h2 class="text">Смлыслов Алексей Михайлович</h2>
-        <span>smislov@email.com</span>
-        <p class="text-gray-500">
-          У меня есть опыт в использовании гибких фреймворков для создания надежного резюме для
-          обзоров высокого уровня. Итеративные подходы к корпоративной стратегии способствуют
-          совместному мышлению для продвижения общего ценностного предложения.
-        </p>
-        <p>
-          <a href="#"><img class="w-10 h-10" src="/public/GHub.png" alt="GitHub" /></a>
-          <a href="#"
-            ><img
-              class="w-10 h-10 rounded-full border border-black-900"
-              src="/public/Telegram.png"
-              alt="Telegram"
-          /></a>
-        </p>
-      </section>
-      <section>
-        <h2>Опыт</h2>
-        <ExperienceItem v-for="data in FREELANCER_EXPERIENCE" :key="data" :data="data" />
-      </section>
-      <section>
-        <h2>Образование</h2>
-        <ExperienceItem v-for="data in EDUCATIONS_AND_COURSES" :key="data" :data="data" />
+        <h2>Skills</h2>
+        <h3>PROGRAMMING LANGUAGES & TOOLS</h3>
+        <h3>a good level of knowledge</h3>
+        <h3>poor level of knowledge</h3>
       </section>
     </div>
   </div>
 </template>
-<style scoped></style>
+<style scoped>
+.header {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background: skyblue;
+  justify-content: center;
+  align-items: center;
+}
+</style>

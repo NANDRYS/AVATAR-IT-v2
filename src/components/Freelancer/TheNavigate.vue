@@ -1,6 +1,6 @@
 <script setup>
 import { ANCHOR_LINKS } from './freelancerConstants'
-import NavigateItem from './navigateItem.vue'
+import NavigateItem from '@/components/Freelancer/NavItem.vue'
 </script>
 
 <template>

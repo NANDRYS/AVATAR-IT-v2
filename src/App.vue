@@ -4,9 +4,9 @@ import TheHeader from './components/TheHeader.vue';
 </script>
 
 <template>
-  <TheHeader/>
+  <TheHeader class="sticky top-0 w-full z-10"/>
 
-  <RouterView />
+  <RouterView class="" />
 </template>
 
 <style scoped></style>

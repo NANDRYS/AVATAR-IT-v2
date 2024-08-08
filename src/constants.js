@@ -268,3 +268,406 @@ export const PROGRAMMING_LANGUAGES = [
   'Yorick',
   'Z shell'
 ]
+export const PROGRAMMING_TOOLS = [
+  {
+    language: 'JavaScript',
+    tools: [
+      'Node.js',
+      'npm',
+      'Yarn',
+      'Webpack',
+      'Parcel',
+      'Babel',
+      'TypeScript',
+      'React',
+      'Vue.js',
+      'Angular',
+      'Jest',
+      'Mocha',
+      'Chai',
+      'Cypress',
+      'Selenium',
+      'Visual Studio Code',
+      'Atom',
+      'Sublime Text',
+      'Git'
+    ]
+  },
+  {
+    language: 'Python',
+    tools: [
+      'pip',
+      'virtualenv',
+      'venv',
+      'Django',
+      'Flask',
+      'FastAPI',
+      'NumPy',
+      'Pandas',
+      'Scikit-learn',
+      'TensorFlow',
+      'PyTorch',
+      'Jupyter Notebook',
+      'PyCharm',
+      'VS Code',
+      'Sublime Text',
+      'Git'
+    ]
+  },
+  {
+    language: 'Java',
+    tools: [
+      'Maven',
+      'Gradle',
+      'Spring Boot',
+      'Hibernate',
+      'JUnit',
+      'Mockito',
+      'IntelliJ IDEA',
+      'Eclipse',
+      'NetBeans',
+      'Git'
+    ]
+  },
+  {
+    language: 'C++',
+    tools: [
+      'CMake',
+      'Boost',
+      'Qt',
+      'OpenGL',
+      'GTest',
+      'Visual Studio',
+      'CLion',
+      'Code::Blocks',
+      'Git'
+    ]
+  },
+  {
+    language: 'C#',
+    tools: [
+      '.NET Core',
+      'ASP.NET Core',
+      'Entity Framework Core',
+      'NUnit',
+      'xUnit',
+      'Visual Studio',
+      'Rider',
+      'Git'
+    ]
+  },
+  {
+    language: 'PHP',
+    tools: [
+      'Composer',
+      'Laravel',
+      'Symfony',
+      'WordPress',
+      'Drupal',
+      'PHPUnit',
+      'PHPStorm',
+      'Sublime Text',
+      'Git'
+    ]
+  },
+  {
+    language: 'Ruby',
+    tools: ['RubyGems', 'Bundler', 'Rails', 'RSpec', 'Minitest', 'Sublime Text', 'VS Code', 'Git']
+  },
+  {
+    language: 'Go',
+    tools: ['Go Modules', 'Gin', 'Echo', 'Ginkgo', 'GoLand', 'VS Code', 'Git']
+  },
+  {
+    language: 'Swift',
+    tools: ['Swift Package Manager', 'Vapor', 'Kitura', 'Xcode', 'VS Code', 'Git']
+  },
+  {
+    language: 'Kotlin',
+    tools: ['Kotlin DSL', 'Spring Boot', 'Ktor', 'JUnit', 'IntelliJ IDEA', 'Android Studio', 'Git']
+  },
+  {
+    language: 'Rust',
+    tools: ['Cargo', 'Rocket', 'Actix', 'Rustfmt', 'Clippy', 'VS Code', 'IntelliJ IDEA', 'Git']
+  },
+  {
+    language: 'Scala',
+    tools: ['SBT', 'Play Framework', 'Akka', 'ScalaTest', 'IntelliJ IDEA', 'VS Code', 'Git']
+  },
+  {
+    language: 'R',
+    tools: ['RStudio', 'Tidyverse', 'ggplot2', 'dplyr', 'tidyr', 'R Markdown', 'Git']
+  },
+  {
+    language: 'HTML',
+    tools: ['CSS', 'JavaScript', 'VS Code', 'Sublime Text', 'Atom', 'Git']
+  },
+  {
+    language: 'CSS',
+    tools: [
+      'Sass',
+      'Less',
+      'PostCSS',
+      'Tailwind CSS',
+      'Bootstrap',
+      'VS Code',
+      'Sublime Text',
+      'Atom',
+      'Git'
+    ]
+  }
+]
+
+export const PROGRAMMING_FRAMEWORKS_AND_LIBRARIES = [
+  ({
+    language: 'JavaScript',
+    frameworks: [
+      'React',
+      'Vue.js',
+      'Angular',
+      'Svelte',
+      'Next.js',
+      'Nuxt.js',
+      'Gatsby',
+      'Express.js',
+      'NestJS',
+      'Meteor',
+      'Electron'
+    ],
+    libraries: [
+      'Lodash',
+      'Moment.js',
+      'Axios',
+      'jQuery',
+      'RxJS',
+      'Redux',
+      'MobX',
+      'D3.js',
+      'Chart.js',
+      'Three.js',
+      'P5.js',
+      'Webpack',
+      'Parcel',
+      'Babel',
+      'TypeScript'
+    ]
+  },
+  {
+    language: 'Python',
+    frameworks: [
+      'Django',
+      'Flask',
+      'FastAPI',
+      'Pyramid',
+      'Tornado',
+      'Dash',
+      'Streamlit',
+      'Kivy',
+      'PyQt',
+      'Tkinter'
+    ],
+    libraries: [
+      'NumPy',
+      'Pandas',
+      'SciPy',
+      'Scikit-learn',
+      'TensorFlow',
+      'PyTorch',
+      'Keras',
+      'Requests',
+      'Beautiful Soup',
+      'Selenium',
+      'OpenCV',
+      'Matplotlib',
+      'Seaborn',
+      'Plotly'
+    ]
+  },
+  {
+    language: 'Java',
+    frameworks: [
+      'Spring Boot',
+      'Spring MVC',
+      'Hibernate',
+      'Jakarta EE (Java EE)',
+      'Struts',
+      'Grails',
+      'Dropwizard',
+      'Micronaut',
+      'Quarkus',
+      'Android'
+    ],
+    libraries: [
+      'Guava',
+      'Apache Commons',
+      'Log4j',
+      'JUnit',
+      'Mockito',
+      'Lombok',
+      'Gson',
+      'Jackson',
+      'JDBC',
+      'Apache POI'
+    ]
+  },
+  {
+    language: 'C++',
+    frameworks: [
+      'Qt',
+      'MFC (Microsoft Foundation Classes)',
+      'wxWidgets',
+      'SDL (Simple DirectMedia Layer)',
+      'SFML (Simple and Fast Multimedia Library)',
+      'Ogre 3D',
+      'Boost',
+      'Poco'
+    ],
+    libraries: [
+      'Boost',
+      'Eigen',
+      'OpenCV',
+      'OpenGL',
+      'Vulkan',
+      'DirectX',
+      'STL (Standard Template Library)',
+      'OpenAI Test',
+      'Catch2'
+    ]
+  },
+  {
+    language: 'C#',
+    frameworks: [
+      '.NET Core',
+      'ASP.NET Core',
+      'Xamarin',
+      'Unity',
+      'Blazor',
+      'WPF (Windows Presentation Foundation)',
+      'WinUI'
+    ],
+    libraries: [
+      'Entity Framework Core',
+      'NUnit',
+      'xUnit',
+      'Moq',
+      'AutoMapper',
+      'Serilog',
+      'NLog',
+      'System.Net.Http'
+    ]
+  },
+  {
+    language: 'PHP',
+    frameworks: [
+      'Laravel',
+      'Symfony',
+      'Yii',
+      'CodeIgniter',
+      'CakePHP',
+      'Zend Framework',
+      'Drupal',
+      'WordPress'
+    ],
+    libraries: [
+      'PHPUnit',
+      'Guzzle',
+      'Monolog',
+      'Twig',
+      'Carbon',
+      'Faker',
+      'DOMDocument',
+      'Simple HTML DOM'
+    ]
+  },
+  {
+    language: 'Ruby',
+    frameworks: ['Rails', 'Sinatra', 'Hanami', 'Lotus', 'Padrino'],
+    libraries: [
+      'RSpec',
+      'Minitest',
+      'Capybara',
+      'FactoryBot',
+      'Faker',
+      'Pry',
+      'Nokogiri',
+      'Active Record',
+      'Action Pack'
+    ]
+  },
+  {
+    language: 'Go',
+    frameworks: ['Gin', 'Echo', 'Beego', 'Buffalo', 'Revel', 'Fiber', 'Go-Micro'],
+    libraries: ['Gorilla/Mux', 'Go-Redis', 'Go-SQL-Driver', 'Go-Swagger', 'Gorm', 'Go-Pg', 'Go-kit']
+  },
+  {
+    language: 'Swift',
+    frameworks: ['Vapor', 'Kitura', 'Perfect', 'SwiftNIO', 'ServerKit'],
+    libraries: ['Alamofire', 'SwiftyJSON', 'Kingfisher', 'SnapKit', 'Realm']
+  },
+  {
+    language: 'Kotlin',
+    frameworks: ['Spring Boot', 'Ktor', 'Vert.x', 'Micronaut', 'Kotlin Multiplatform Mobile (KMM)'],
+    libraries: [
+      'Kotlin Coroutines',
+      'KotlinX.Serialization',
+      'Kodein',
+      'Koin',
+      'Retrofit',
+      'OkHttp',
+      'Room'
+    ]
+  },
+  {
+    language: 'Rust',
+    frameworks: ['Rocket', 'Actix Web', 'Tide', 'Warp', 'Iron', 'Yew', 'Tauri'],
+    libraries: ['Serde', 'Reqwest', 'Diesel', 'Tokio', 'async-std', 'clap', 'structopt']
+  },
+  {
+    language: 'Scala',
+    frameworks: ['Play Framework', 'Akka', 'Finagle', 'Spray', 'Lagom', 'Scalatra'],
+    libraries: ['Scalatest', 'Specs2', 'Cats', 'Scalaz', 'Circe', 'Slick', 'Quill']
+  },
+  {
+    language: 'R',
+    frameworks: ['Shiny', 'Tidyverse', 'Plotly', 'R Markdown'],
+    libraries: [
+      'ggplot2',
+      'dplyr',
+      'tidyr',
+      'purrr',
+      'stringr',
+      'lubridate',
+      'data.table',
+      'caret',
+      'randomForest'
+    ]
+  },
+  {
+    language: 'HTML',
+    frameworks: [
+      'Bootstrap',
+      'Foundation',
+      'Bulma',
+      'Materialize',
+      'Semantic UI',
+      'Tailwind CSS',
+      'React',
+      'Vue.js',
+      'Angular'
+    ],
+    libraries: ['jQuery', 'AJAX', 'JSON', 'DOM API', 'Canvas API', 'WebSockets']
+  },
+  {
+    language: 'CSS',
+    frameworks: ['Bootstrap', 'Foundation', 'Bulma', 'Materialize', 'Semantic UI', 'Tailwind CSS'],
+    libraries: [
+      'Sass',
+      'Less',
+      'PostCSS',
+      'Animate.css',
+      'normalize.css',
+      'Grid.css',
+      'Flexboxgrid'
+    ]
+  })
+]

@@ -12,7 +12,21 @@ export const EDUCATIONS_AND_COURSES = {
   1: {
     dev_level: 'Наименование организации',
     dev_type: 'Вид образования(бакалавр/магистратура)',
-    discription: 'Специальность',
+    discription: 'Информационные системы и программирвоание',
     time_interval: 'june 2023 - Present'
   }
+}
+export const SKILLS = {
+  languages: {
+    'HTML 5': 'good',
+    'CSS 3': 'good',
+    Javascript: 'good'
+  },
+  tools: {},
+  libraries: {
+    JQuery: 'good',
+    ES5: 'good',
+    ES6: 'good'
+  },
+  frameworks: {}
 }

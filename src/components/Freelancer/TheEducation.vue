@@ -1,5 +1,5 @@
 <script setup>
-import ExperienceItem from './ExperienceItem.vue';
+import ExperienceItem from './experienceItem.vue';
 import { EDUCATIONS_AND_COURSES } from './freelancerConstants'
 </script>
 

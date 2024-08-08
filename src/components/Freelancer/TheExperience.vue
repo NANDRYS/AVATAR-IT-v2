@@ -1,6 +1,6 @@
-<script setup >
-import ExperienceItem from './ExperienceItem.vue';
-import { FREELANCER_EXPERIENCE } from './freelancerConstants';
+<script setup>
+import ExperienceItem from 'experienceItem.vue'
+import { FREELANCER_EXPERIENCE } from 'freelancerConstants'
 </script>
 
 <template>

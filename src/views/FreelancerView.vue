@@ -1,11 +1,11 @@
 <script setup>
 import FreelancerIcon from '../components/FreelancerIcon.vue'
 import TheNavigate from '../components/Freelancer/TheNavigate.vue'
-import TheAbout from '@/comp../components/Freelancer/experienceItem.vue
-import TheExperience from '@/components/Freelancer/TheExperience.vue'
-import TheEducation from '@/components/Freelancer/TheEducation.vue'
-import TheSkills from '@/components/Freelancer/TheSkills.vue'
-import TheInterests from '@/components/Freelancer/TheInterests.vue'
+import TheExperience from '../components/Freelancer/TheExperience.vue'
+import TheEducation from '../components/Freelancer/TheEducation.vue'
+import TheSkills from '../components/Freelancer/TheSkills.vue'
+import TheInterests from '../components/Freelancer/TheInterests.vue'
+import TheAbout from '../components/Freelancer/TheAbout.vue'
 </script>
 <template>
   <div class="flex">

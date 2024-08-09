@@ -28,5 +28,7 @@ export const SKILLS = {
     ES5: 'good',
     ES6: 'good'
   },
-  frameworks: {}
+  frameworks: {
+    'Vue 3': 'good'
+  }
 }

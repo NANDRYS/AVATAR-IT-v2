@@ -8,11 +8,11 @@
       мышлению для продвижения общего ценностного предложения.
     </p>
     <p class="flex mt-5 gap-9">
-      <a href="#"><img class="w-10 h-10" src="/public/GHub.png" alt="GitHub" /></a>
+      <a href="#"><img class="w-10 h-10" src="../../../public/img/GHub.png" alt="GitHub" /></a>
       <a href="#"
         ><img
           class="w-10 h-10 rounded-full border border-black-900"
-          src="/public/Telegram.png"
+          src="../../../public/img/Telegram.png"
           alt="Telegram"
       /></a>
     </p>

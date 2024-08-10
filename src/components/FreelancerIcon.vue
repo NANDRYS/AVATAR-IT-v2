@@ -1,3 +1,3 @@
 <template>
-  <img class="w-20 h-20 rounded" src="/public/developer.jpg" alt="png" />
+  <img class="size-24 self-center  rounded" src="../../public/img/developer.jpg" alt="png" />
 </template>

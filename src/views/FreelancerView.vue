@@ -11,7 +11,7 @@ import TheAbout from '../components/Freelancer/TheAbout.vue'
   <div class="flex">
     <div class="w-2/5">
       <div class="header w-full">
-        <FreelancerIcon class="rounded-full w-40 h-40 mb-5" />
+        <FreelancerIcon class="rounded-full  mb-5" />
         <TheNavigate class="text-white text-2xl capitalize" />
       </div>
     </div>

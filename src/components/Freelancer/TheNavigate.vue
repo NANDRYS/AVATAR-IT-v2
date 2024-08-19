@@ -5,6 +5,6 @@ import NavigateItem from '@/components/Freelancer/NavItem.vue'
 
 <template>
   <ul>
-    <NavigateItem v-for="link in ANCHOR_LINKS" :key="link" :text="link" />
+    <NavigateItem v-for="link in ANCHOR_LINKS" :key="link" :text="link" class="md:mb-4" />
   </ul>
 </template>

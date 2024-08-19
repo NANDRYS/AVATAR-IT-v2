@@ -1,7 +1,9 @@
 <script setup>
 import { ref } from 'vue'
-import DevelopersCard from '../components/DevelopersCard.vue'
-import TheCatigories from '../components/TheCatigories.vue'
+import DevelopersCard from '../components/Main/DevelopersCard.vue'
+import TheCatigories from '../components/Main/TheCatigories.vue'
+import TheAdvertisingBlock from '@/components/Main/TheAdvertisingBlock.vue'
+import TheHeader from '@/components/TheHeader.vue'
 
 const activeCategories = ref('Разработчик программного обеспечения') // Инициализируем переменную для хранения значения
 
@@ -10,6 +12,7 @@ const handleCategorySelected = (selectedSpec) => {
 }
 </script>
 <template>
+  <TheHeader class="sticky top-0 w-full z-10" />
   <p class="hidden md:block text-center text-gray-600">
     {{ activeCategories }}
   </p>
@@ -20,15 +23,8 @@ const handleCategorySelected = (selectedSpec) => {
     <div class="basis-4/6 lg:basis-3/5 border border-groow content">
       <DevelopersCard />
     </div>
-    <aside class="lg:basis-1/5 border border-groow ad">
-      <a href="https://vk.com/itpark32" target="_blank"
-        ><div class="card rounded mt-10 m-auto hover:scale-110 transition-all w-48 shadow-lg">
-          <div class="header items-center flex flex-col p-5">
-            <img class="rounded" src="../../public/img/park.jpg" alt="it-park" />
-            <p class="text-center text-sm">Онлайн школа программирования It-Park</p>
-          </div>
-        </div></a
-      >
+    <aside class="lg:basis-1/5">
+      <TheAdvertisingBlock />
     </aside>
   </div>
 </template>

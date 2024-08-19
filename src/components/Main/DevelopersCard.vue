@@ -1,5 +1,5 @@
 <script setup >
-import FreelancerIcon from './FreelancerIcon.vue';
+import FreelancerIcon from '../FreelancerIcon.vue';
 </script>
 
 <template>

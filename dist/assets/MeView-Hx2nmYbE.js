@@ -1,0 +1,1 @@
+import{_ as e,c,o}from"./index-DTGgbZ5g.js";const s={},t={class:"Me"};function n(a,r){return o(),c("div",t," моя страничка к примеру. SPA - single page application ")}const i=e(s,[["render",n]]);export{i as default};

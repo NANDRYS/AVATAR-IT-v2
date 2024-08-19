@@ -8,6 +8,6 @@ const props = defineProps({
 </script>
 <template>
   <li class="">
-    <a :href="`#${props.text}`">{{ props.text }}</a>
+    <a class=" bg-gray-100/50 p-1 rounded-lg" :href="`#${props.text}`">{{ props.text }}</a>
   </li>
 </template>

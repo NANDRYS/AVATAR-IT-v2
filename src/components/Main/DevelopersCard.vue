@@ -1,5 +1,5 @@
 <script setup >
-import FreelancerIcon from './FreelancerIcon.vue';
+import FreelancerIcon from '../FreelancerIcon.vue';
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import FreelancerIcon from './FreelancerIcon.vue';
       </div>
       <div class="basis-2/5 text-end flex flex-col justify-between">
         <p>оценка <span class="text-sm">(тут должны быть звездочки)</span></p>
-        <RouterLink to="/freelancer" class="btn">
+        <RouterLink to="/freelancer" class="button w-min self-end">
           просмотреть
         </RouterLink>
       </div>

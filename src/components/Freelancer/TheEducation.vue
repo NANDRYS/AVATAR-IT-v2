@@ -1,6 +1,6 @@
 <script setup>
-import ExperienceItem from './experienceItem.vue';
-import { EDUCATIONS_AND_COURSES } from './freelancerConstants'
+import ExperienceItem from "./experienceItem.vue";
+import { EDUCATIONS_AND_COURSES } from "./freelancerConstants";
 </script>
 
 <template>
@@ -9,6 +9,10 @@ import { EDUCATIONS_AND_COURSES } from './freelancerConstants'
     id="education"
   >
     <h2 class="sm:text-6xl md:text-5xl text-5xl my-16">Образование</h2>
-    <ExperienceItem v-for="data in EDUCATIONS_AND_COURSES" :key="data" :data="data" />
+    <ExperienceItem
+      v-for="data in EDUCATIONS_AND_COURSES"
+      :key="data"
+      :data="data"
+    />
   </section>
 </template>
